@@ -1,12 +1,12 @@
 import * as React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-import Register from '../modules/Register'
+import HomePage from '../pages/Home'
 
 const Routes = () => (
     <Router>
         <Switch>
-            <Route path="/register" exact={true} component={Register} />
+            <Route path="/" exact={true} component={HomePage} />
         </Switch>
     </Router>
 )
