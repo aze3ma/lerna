@@ -1,4 +1,1 @@
 # LERNA
-
-## Folder structure
-  -- packages
